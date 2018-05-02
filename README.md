@@ -19,7 +19,10 @@ PyQt4 or PyQt5<br>
 Leap Motion Sensor<br>
 Leap Motion Sensor SDK<br>
 
-
+#### Known Issues
+Currently, translation occurs too often (receive the same sign over and over).<br>
+Attempts to add autocorrect feature were unsuccessful.<br>
+  * This was attempted to help correct words as they came through when a sign was predicted incorrectly.
 
 
 #### Screenshots
