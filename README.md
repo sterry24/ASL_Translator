@@ -13,11 +13,6 @@ Currently reads files of the following formats:<br>
   * leap_utils.py:<br>
 	  * Some utilities for working with leap motion data<br>
 
-Built-in Graph Generator for plotting data <br>
-Merge tool for merging multiple dataframes
-Group-by tool for selecting subsets of data
-
-
 #### Requirements:
 Python 2.7<br>
 PyQt4 or PyQt5<br>
