@@ -570,53 +570,7 @@ class MainWindow(QMainWindow):
         
         self._camPrevThread.terminate()
         event.accept()
-  
         
-###############################################################################
-# The following are GUI shortcut tools 
-###############################################################################        
-#    ## Create an action for GUIs
-#    def createAction(self, text, slot = None, shortcut = None, icon = None,
-#                     tip = None, checkable = False, signal = "triggered()"):
-#        action = QAction(text,self)
-#        if icon is not None:
-#            action.setIcon(QIcon(":/%s.png" % icon))
-#        if shortcut is not None:
-#            action.setShortcut(shortcut)
-#        if tip is not None:
-#            action.setToolTip(tip)
-#            action.setStatusTip(tip)
-#        if slot is not None:
-#            self.connect(action, SIGNAL(signal),slot)
-#        if checkable:
-#            action.setCheckable(True)
-#        return action
-#        
-#    def addActions(self, target, actions):
-#        for action in actions:
-#            if action is None:
-#                target.addSeparator()
-#            else:
-#                target.addAction(action)    
-#        
-#    ## Create a button
-#    def createButton(self,text, kind= "push", checkable = False):
-#            
-#        if kind == "push":
-#            button = QPushButton(text)
-#        if kind == "radio":
-#            button = QRadioButton(text)
-#        if kind == "check":
-#            button = QCheckBox(text)
-#        if checkable:
-#            button.setEnabled(True)
-#        return button        
-###############################################################################
-###############################################################################     
-         
-        
-         
-         
 if __name__ == "__main__":
     app=QApplication(sys.argv)
     form = MainWindow()
