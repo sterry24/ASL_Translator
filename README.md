@@ -3,11 +3,6 @@ A project to
   * collect ASL (American Sign Language) static gestures through the use of the Leap Motion Sensor.<br>
   * translate ASL gestures into text with the use of a machine learned model from data collection
 
-#### Features:
-Currently reads files of the following formats:<br>
-  * Excel<br>
-  * comma delimited or white-space delimited<br>
-
 #### Includes:
   * One RandomForest model created from data collected from 6 users<br>
   * leap_utils.py:<br>
